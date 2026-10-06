@@ -123,3 +123,10 @@ export interface ProcessStep {
   title: string;
   description: string;
 }
+
+export interface PriceLine {
+  item: string;
+  from: string;
+  unit: string;
+  note: string;
+}
