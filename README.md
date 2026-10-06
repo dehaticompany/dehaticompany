@@ -1,4 +1,4 @@
-# Shivalik Works — multi-service property company website
+# Dehati Comapny — multi-service property company website
 
 A production-ready marketing site for a company that does electrical, plumbing, construction,
 interior, furniture, carpentry, painting and maintenance work. Built with Next.js (App Router),
