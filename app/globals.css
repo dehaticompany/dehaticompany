@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Theme tokens — the single place site colours, radii and spacing are set.
+   Mirrored in config/theme.ts for the rare value needed in JavaScript.
+   Change a value here and every component follows.
+   ========================================================================== */
+:root {
+  --primary: #0c2c4b;
+  --primary-dark: #071e35;
+  --primary-light: #1b4e7e;
+
+  --accent: #f0a81b;
+  --accent-dark: #c9860a;
+
+  --background: #ffffff;
+  --surface: #f1f4f7;
+  --surface-deep: #e4eaf1;
+
+  --text: #0e1621;
+  --text-light: #5a6875;
+  --text-invert: #f6f8fa;
+
+  --border: #dde3ea;
+  --border-strong: #c2ccd8;
+
+  --success: #15803d;
+  --danger: #c62828;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 2px rgba(12, 44, 75, 0.06), 0 8px 24px -16px rgba(12, 44, 75, 0.35);
+  --shadow-lifted: 0 2px 4px rgba(12, 44, 75, 0.08), 0 18px 40px -22px rgba(12, 44, 75, 0.45);
+
+  --container-max: 1200px;
+  --header-height: 76px;
+}
+
+/* Expose the tokens above to Tailwind as utilities: bg-primary, text-muted,
+   rounded-md, font-display, and so on. */
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-deep: var(--surface-deep);
+  --color-ink: var(--text);
+  --color-muted: var(--text-light);
+  --color-invert: var(--text-invert);
+  --color-hairline: var(--border);
+  --color-hairline-strong: var(--border-strong);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), var(--font-body), ui-sans-serif, sans-serif;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-height) + 16px);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: -0.005em;
+    color: var(--text);
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 6vw, 4.25rem);
+  }
+  h2 {
+    font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  }
+  h3 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--primary-dark);
+  }
+}
+
+/* ==========================================================================
+   Small shared patterns that would otherwise be repeated in every component
+   ========================================================================== */
+@layer components {
+  /* Measured body text: keeps prose under ~70 characters per line. */
+  .prose-measure {
+    max-width: 62ch;
+  }
+
+  /* The blueprint rule used under section headings and beside the hero. */
+  .rule-accent {
+    width: 56px;
+    height: 3px;
+    background: var(--accent);
+  }
+
+  /* Faint site-drawing grid used behind dark sections. */
+  .grid-blueprint {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

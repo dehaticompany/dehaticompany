@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "slug": "sector-9-apartment-interior",
+    "title": "Three-bedroom apartment fit-out",
+    "category": "Interior",
+    "location": "Sector 9, Chandigarh",
+    "year": 2025,
+    "duration": "7 weeks",
+    "image": "/images/portfolio/project-1.jpg",
+    "description": "Ceilings, lighting, wardrobes and wall finishes for a family moving in before the school term. Electrical and carpentry ran in parallel to save two weeks."
+  },
+  {
+    "id": 2,
+    "slug": "it-park-office-rewire",
+    "title": "Office floor rewire",
+    "category": "Electrical",
+    "location": "IT Park, Mohali",
+    "year": 2025,
+    "duration": "9 nights",
+    "image": "/images/portfolio/project-2.jpg",
+    "description": "A 6,000 sq ft floor rewired overnight in phases, with a new distribution board, UPS circuits and load test certificates issued on completion."
+  },
+  {
+    "id": 3,
+    "slug": "panchkula-cafe-buildout",
+    "title": "Cafe kitchen build-out",
+    "category": "Construction",
+    "location": "Panchkula",
+    "year": 2024,
+    "duration": "11 days",
+    "image": "/images/portfolio/project-3.jpg",
+    "description": "Grease-trap drainage, anti-skid flooring, exhaust ducting and wall cladding completed ahead of a fixed licence inspection date."
+  },
+  {
+    "id": 4,
+    "slug": "sector-70-modular-kitchen",
+    "title": "Modular kitchen and pantry",
+    "category": "Furniture",
+    "location": "Sector 70, Mohali",
+    "year": 2025,
+    "duration": "3 weeks",
+    "image": "/images/portfolio/project-4.jpg",
+    "description": "BWP ply carcasses, acrylic shutters and soft-close hardware, measured and built around an existing window and gas line."
+  },
+  {
+    "id": 5,
+    "slug": "zirakpur-block-repaint",
+    "title": "Residential block repaint",
+    "category": "Painting",
+    "location": "Zirakpur",
+    "year": 2024,
+    "duration": "4 weeks",
+    "image": "/images/portfolio/project-5.jpg",
+    "description": "Crack filling, waterproof primer and exterior emulsion across four blocks, with scaffolding sequenced so no stairwell was closed for more than a day."
+  },
+  {
+    "id": 6,
+    "slug": "sector-33-bathroom-replumb",
+    "title": "Two bathrooms replumbed",
+    "category": "Plumbing",
+    "location": "Sector 33, Chandigarh",
+    "year": 2025,
+    "duration": "12 days",
+    "image": "/images/portfolio/project-6.jpg",
+    "description": "Concealed pipework replaced after a slab leak, pressure tested, then tiled and refitted by our own tiling and carpentry teams."
+  },
+  {
+    "id": 7,
+    "slug": "industrial-area-amc",
+    "title": "Warehouse maintenance contract",
+    "category": "Maintenance",
+    "location": "Industrial Area, Chandigarh",
+    "year": 2023,
+    "duration": "Ongoing",
+    "image": "/images/portfolio/project-7.jpg",
+    "description": "Quarterly inspection of electrics, roof drainage, shutters and fire pumps, with a written condition report after every visit."
+  },
+  {
+    "id": 8,
+    "slug": "kharar-villa-carpentry",
+    "title": "Villa doors and joinery",
+    "category": "Carpentry",
+    "location": "Kharar",
+    "year": 2024,
+    "duration": "5 weeks",
+    "image": "/images/portfolio/project-8.jpg",
+    "description": "Fourteen solid-core doors, frames and a staircase balustrade made to site measurements and finished in melamine on site."
+  },
+  {
+    "id": 9,
+    "slug": "sector-17-shop-fitout",
+    "title": "Retail shop fit-out",
+    "category": "Interior",
+    "location": "Sector 17, Chandigarh",
+    "year": 2025,
+    "duration": "16 days",
+    "image": "/images/portfolio/project-9.jpg",
+    "description": "Display joinery, track lighting, signage backing and flooring for a 900 sq ft unit, handed over between two trading weekends."
+  }
+]

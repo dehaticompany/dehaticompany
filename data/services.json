@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "slug": "electrical-services",
+    "title": "Electrical Services",
+    "shortDescription": "Licensed electricians for new installations, rewiring, lighting and fault finding.",
+    "description": "Our electricians handle everything from a single socket to a full property rewire, including load calculation, distribution boards, earthing and test certificates. Fault finding is charged by the visit, not by guesswork.",
+    "image": "/images/services/electrical.jpg",
+    "icon": "Zap",
+    "featured": true,
+    "features": [
+      "Electrical installation",
+      "Wiring and rewiring",
+      "Switch and socket installation",
+      "Lighting installation",
+      "Electrical fault repair",
+      "Fan installation",
+      "Appliance installation",
+      "Electrical maintenance"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "plumbing-services",
+    "title": "Plumbing Services",
+    "shortDescription": "Leak tracing, pipework, bathroom and kitchen plumbing, drainage and tank work.",
+    "description": "We trace leaks with moisture meters before we open a wall, and we pressure test every new run before it is closed up. Bathroom and kitchen refits are sequenced with our tiling and electrical teams so the room is finished in one go.",
+    "image": "/images/services/plumbing.jpg",
+    "icon": "Droplet",
+    "featured": true,
+    "features": [
+      "Pipe installation",
+      "Pipe and leakage repair",
+      "Bathroom plumbing",
+      "Kitchen plumbing",
+      "Water tank installation",
+      "Drainage and sewer work",
+      "Motor and pump fitting",
+      "Plumbing maintenance"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "construction-services",
+    "title": "Construction & Civil Work",
+    "shortDescription": "Residential and commercial builds, renovations, structural repair and civil work.",
+    "description": "Civil work runs to a written schedule with staged payments tied to completed stages, not dates. We cover ground-up residential and commercial builds, floor additions, renovations and structural repairs with an engineer's sign-off where the work requires it.",
+    "image": "/images/services/construction.jpg",
+    "icon": "HardHat",
+    "featured": true,
+    "features": [
+      "Residential construction",
+      "Commercial construction",
+      "Renovation and remodelling",
+      "Civil and RCC work",
+      "Wall construction and plaster",
+      "Flooring and tiling",
+      "Roofing and waterproofing",
+      "Structural repair"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "interior-services",
+    "title": "Interior Work",
+    "shortDescription": "Design-and-build interiors for homes and offices, from ceilings to handover.",
+    "description": "You get one drawing set, one quote and one site supervisor for the whole interior. Ceilings, partitions, lighting, wall finishes and fitted storage are built by our own teams, so the sequencing does not fall apart between trades.",
+    "image": "/images/services/interior.jpg",
+    "icon": "Ruler",
+    "featured": true,
+    "features": [
+      "Interior design and drawings",
+      "Living room interiors",
+      "Bedroom interiors",
+      "Modular kitchen interiors",
+      "Office and retail interiors",
+      "False ceiling",
+      "Wall panelling and design",
+      "Turnkey interior fit-out"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "furniture-services",
+    "title": "Furniture",
+    "shortDescription": "Custom and modular furniture built to your measurements and fitted on site.",
+    "description": "Wardrobes, kitchens, beds, storage and office furniture made in our workshop from BWP ply and branded hardware, then installed and adjusted on site. We also repair and refinish furniture that is worth keeping.",
+    "image": "/images/services/furniture.jpg",
+    "icon": "Sofa",
+    "featured": true,
+    "features": [
+      "Custom furniture",
+      "Modular furniture",
+      "Wardrobes and storage",
+      "Kitchen furniture",
+      "Office furniture",
+      "Beds and headboards",
+      "Sofas and seating",
+      "Furniture repair and polish"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "carpentry-services",
+    "title": "Carpentry",
+    "shortDescription": "Doors, frames, cabinets and site woodwork by time-served carpenters.",
+    "description": "Hanging doors, fitting frames, building cabinets, repairing swollen or termite-damaged wood, and making the odd-shaped pieces that no modular catalogue covers.",
+    "image": "/images/services/carpentry.jpg",
+    "icon": "Hammer",
+    "featured": false,
+    "features": [
+      "Door and frame work",
+      "Wooden furniture",
+      "Wood and termite damage repair",
+      "Custom woodwork",
+      "Cabinet and shutter work",
+      "Modular fitting and alignment"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "painting-services",
+    "title": "Painting",
+    "shortDescription": "Interior, exterior and texture painting with proper surface preparation.",
+    "description": "Most paint jobs fail at the preparation stage, so we putty, sand and prime before the first coat and record the product and shade used on every surface for future touch-ups.",
+    "image": "/images/services/painting.jpg",
+    "icon": "Paintbrush",
+    "featured": false,
+    "features": [
+      "Interior painting",
+      "Exterior and weatherproof painting",
+      "Wall putty and preparation",
+      "Texture and stencil finishes",
+      "Commercial painting",
+      "Residential repainting"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "maintenance-repair",
+    "title": "Maintenance & Repair",
+    "shortDescription": "One-off repairs and annual maintenance contracts for homes and commercial sites.",
+    "description": "Put the building on a schedule and most failures never happen. Our AMC covers periodic checks of electrics, plumbing, drainage and fittings, with priority callout rates when something does break.",
+    "image": "/images/services/maintenance.jpg",
+    "icon": "Wrench",
+    "featured": true,
+    "features": [
+      "Home maintenance",
+      "Office maintenance",
+      "Commercial and retail maintenance",
+      "General repair and handyman work",
+      "Preventive maintenance contracts",
+      "Emergency callouts",
+      "Installation work",
+      "Property handover checks"
+    ]
+  }
+]

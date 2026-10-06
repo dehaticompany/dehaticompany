@@ -1,0 +1,100 @@
+{
+  "name": "Shivalik Works",
+  "legalName": "Shivalik Works Property Services",
+  "tagline": "Every trade your property needs, under one contract",
+  "description": "Electrical, plumbing, construction, interiors, furniture, painting, carpentry and planned maintenance for homes, offices, shops and commercial buildings.",
+  "foundedYear": 2011,
+  "url": "https://www.shivalikworks.in",
+  "logo": "/logo/logo.svg",
+  "ogImage": "/images/hero/hero-og.jpg",
+  "stats": [
+    {
+      "label": "Years on the tools",
+      "value": "14+"
+    },
+    {
+      "label": "Properties maintained",
+      "value": "1,200+"
+    },
+    {
+      "label": "Trades in-house",
+      "value": "8"
+    },
+    {
+      "label": "Average response",
+      "value": "4 hrs"
+    }
+  ],
+  "serviceAreas": [
+    "Chandigarh",
+    "Mohali",
+    "Panchkula",
+    "Zirakpur",
+    "Kharar"
+  ],
+  "credentials": [
+    "Licensed electrical contractor",
+    "GST registered",
+    "Workmen insured on site",
+    "12-month workmanship warranty"
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Users",
+      "title": "Our own tradesmen",
+      "description": "Every electrician, plumber, mason and carpenter is on our payroll, police-verified and in uniform. No subcontractors you have never met."
+    },
+    {
+      "icon": "ClipboardList",
+      "title": "Written, itemised quotes",
+      "description": "Materials, labour and timeline listed line by line before work starts. If scope changes, you approve the revision in writing first."
+    },
+    {
+      "icon": "CalendarClock",
+      "title": "Dates we actually keep",
+      "description": "Jobs are scheduled against a stage plan, and your supervisor sends a short progress update at the end of each working day."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Insured and warrantied",
+      "description": "Workmen are insured on site and every job carries a 12-month workmanship warranty on top of the manufacturer's product warranty."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Branded materials only",
+      "description": "We quote the brand and grade of every material, from wire to ply to paint, and leave the bills with you at handover."
+    },
+    {
+      "icon": "Wrench",
+      "title": "We clean up",
+      "description": "Debris is removed and the space is swept at the end of each day, not left for you to deal with at the end of the job."
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Tell us what is wrong",
+      "description": "Call, WhatsApp a photo, or send the form. We ask enough questions on the first call to know which trade to send."
+    },
+    {
+      "step": 2,
+      "title": "Free site visit",
+      "description": "A supervisor measures, checks access and existing services, and flags anything the job will uncover later."
+    },
+    {
+      "step": 3,
+      "title": "Itemised quote",
+      "description": "You get a written quote within 48 hours with materials, labour, timeline and payment stages spelled out."
+    },
+    {
+      "step": 4,
+      "title": "Scheduled work",
+      "description": "Trades arrive in sequence against the stage plan, with a daily update and photos from your supervisor."
+    },
+    {
+      "step": 5,
+      "title": "Handover and snag list",
+      "description": "We walk the site with you, fix the snags, hand over bills and certificates, and the 12-month warranty starts."
+    }
+  ]
+}

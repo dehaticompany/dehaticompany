@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Ritu Malhotra",
+    "role": "Homeowner",
+    "location": "Sector 33, Chandigarh",
+    "service": "Interior",
+    "message": "They handled the false ceiling, wiring and wardrobes as one job, so I never had to chase three different contractors. Site was swept every evening.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Harpreet Singh",
+    "role": "Facility Manager",
+    "location": "IT Park, Mohali",
+    "service": "Maintenance",
+    "message": "We moved our office block onto their quarterly maintenance plan. Two years in, we have had no unplanned power or plumbing shutdowns.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Anjali Verma",
+    "role": "Cafe Owner",
+    "location": "Panchkula",
+    "service": "Construction",
+    "message": "Kitchen drainage, exhaust and floor tiling were finished in eleven days, before my licence inspection. The quote did not change midway.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Deepak Arora",
+    "role": "Landlord",
+    "location": "Zirakpur",
+    "service": "Repair",
+    "message": "A tenant reported a leak on Sunday night. A plumber was there before noon on Monday and sent me photos of the repair.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Meera Nair",
+    "role": "Homeowner",
+    "location": "Sector 70, Mohali",
+    "service": "Furniture",
+    "message": "The carpentry team measured, built and installed the whole kitchen on site. Soft-close fittings still perfect after a year of heavy use.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Sandeep Bhatia",
+    "role": "Shop Owner",
+    "location": "Sector 17, Chandigarh",
+    "service": "Electrical",
+    "message": "Rewired the shop overnight so we lost no trading hours. Certificate and load calculation came by email the next morning.",
+    "rating": 5
+  }
+]
