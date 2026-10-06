@@ -30,6 +30,25 @@ export interface Service {
   icon: string;
   featured: boolean;
   features: string[];
+  timeline: string;
+  warranty: string;
+  intro: string;
+  commonJobs: {
+    title: string;
+    description: string;
+    typicalTime: string;
+  }[];
+  included: string[];
+  notIncluded: string[];
+  materials: {
+    label: string;
+    detail: string;
+  }[];
+  pricing: PriceLine[];
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
 }
 
 export type PortfolioCategory =
@@ -129,4 +148,9 @@ export interface PriceLine {
   from: string;
   unit: string;
   note: string;
+}
+
+export interface Faq {
+  question: string;
+  answer: string;
 }
