@@ -1,9 +1,9 @@
 {
-  "phone": "+91 98765 43210",
-  "phoneRaw": "+919876543210",
-  "whatsapp": "919876543210",
+  "phone": "+91 6391656593",
+  "phoneRaw": "+916391656593",
+  "whatsapp": "+916391656593",
   "whatsappMessage": "Hi Dehati Comapny, I need help with ",
-  "email": "work@shivalikworks.in",
+  "email": "dehaaticompany@gmail.com",
   "address": {
     "line1": "SCO 214, Second Floor",
     "line2": "Industrial Area Phase 1",
@@ -19,7 +19,7 @@
     { "days": "Emergency callouts", "hours": "24 hours" }
   ],
   "social": [
-    { "name": "WhatsApp", "url": "https://wa.me/919876543210", "icon": "MessageCircle" },
+    { "name": "WhatsApp", "url": "https://wa.me/6391656593", "icon": "MessageCircle" },
     { "name": "Instagram", "url": "https://instagram.com/", "icon": "Instagram" },
     { "name": "Facebook", "url": "https://facebook.com/", "icon": "Facebook" },
     { "name": "LinkedIn", "url": "https://linkedin.com/", "icon": "Linkedin" }

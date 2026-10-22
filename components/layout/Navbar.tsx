@@ -42,7 +42,7 @@ export default function Navbar({ site, contact, links }: NavbarProps) {
             aria-hidden="true"
             className="grid h-9 w-9 place-items-center rounded-[var(--radius-sm)] bg-primary font-display text-lg font-semibold text-invert"
           >
-            S
+            DC
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-display text-[1.28rem] font-semibold tracking-tight">{site.name}</span>
